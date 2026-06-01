@@ -57,3 +57,13 @@ int main()
             cout << baris << endl;
         }
 
+        // menutup file jika telah selesai di loop
+        infile.close();
+    }
+    else
+    {
+        cout << "Unable to open file";
+    }
+
+    return 0;
+}
