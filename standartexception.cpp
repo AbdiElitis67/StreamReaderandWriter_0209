@@ -15,3 +15,14 @@ int main()
         // memanggil array elemen ke-5 sehingga terjadi error
         cout << data.at(5) << endl;
     }
+
+    // kondisi jika terjadi error di dalam try
+    catch (exception &e)
+    {
+        cout << e.what() << endl;
+    }
+
+    cout << "Baris program terakhir" << endl; // penanda 2
+
+    return 0;
+}
