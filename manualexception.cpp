@@ -8,4 +8,3 @@ int main()
     try
     {
         cout << "Selamat belajar di prodi TI UMY" << endl;
-
