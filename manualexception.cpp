@@ -8,3 +8,10 @@ int main()
     try
     {
         cout << "Selamat belajar di prodi TI UMY" << endl;
+
+        // melempar exception bertipe integer
+        throw 5;
+
+        cout << "Pernyataan tidak akan ditampilkan" << endl;
+    }
+
